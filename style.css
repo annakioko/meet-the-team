@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+}
+.team content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    border: 1px; solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}   
+
+.box img{
+    max-width: 100%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.box img:hover{
+    transform: scale(1.14);
+}
+
+.icons:hover{
+    transform: scale(2.04);
+}
